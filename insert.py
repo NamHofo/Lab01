@@ -18,7 +18,7 @@ def insert_data(data):
 
 if __name__ == '__main__':
     data_dir = "/home/hofonam/Documents/UniGap/Project02/data"
-    for i in range(1, 10):
+    for i in range(1, 201):
         file_path = os.path.join(data_dir, f"products_{i}.json")
         if os.path.exists(file_path):
             with open(file_path, "r", encoding="utf-8") as f:
